@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding-bottom: 40px;
+}
+
+/* ───── ヘッダー ───── */
+.sp-header {
+  background: #fff;
+  padding: 12px 16px;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #eee;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sp-nav ul {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-top: 8px;
+}
+
+.sp-nav li {
+  list-style: none;
+  margin-right: 16px;
+}
+
+.sp-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* ───── ファーストビュー ───── */
+.fv {
+  padding: 40px 16px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.fv h1 {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+/* ───── 共通セクション ───── */
+.section {
+  padding: 32px 16px;
+}
+
+.section h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+/* ───── サービス ───── */
+.service-box {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.service-box img {
+  width: 100%;
+  max-width: 280px;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+/* ───── お問い合わせボタン ───── */
+.contact-btn {
+  display: block;
+  background: #0078ff;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* ───── フッター ───── */
+.sp-footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+  color: #777;
+}
